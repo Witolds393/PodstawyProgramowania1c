@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e4646b-fc24-4780-84c8-a5249075ad2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zmienne.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wyjscie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +33,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Testowy.executor": "Run",
+    "Python.wejscie_i_wyjscie.executor": "Run",
+    "Python.wyjscie.executor": "Run",
     "Python.zmienne.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "tor__poboczny1"
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="SharedIndexes">
