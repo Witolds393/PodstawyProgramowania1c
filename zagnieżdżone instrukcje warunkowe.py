@@ -3,7 +3,7 @@ b = float(input('Podaj liczbe rzeczywistą b '))
 c = float(input('Podaj liczbe rzeczywistą c'))
 
 if b == 0 and c == 0:
-    print('Równanie = 0')
+    print('wynik = 0')
 if b == 0 and c != 0:
    if - c / a > 0:
     x1 = (-c / a) ** 0.5
