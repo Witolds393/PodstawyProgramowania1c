@@ -60,5 +60,6 @@ cale_zdanie2 = '\n'.join(lista_napisow2)
 print(cale_zdanie2)
 
 #4.)zliczane danego znaku w tekście
-napos5 = 'prawdopodobienstwo'
-ile_razy_o = napis5.count()
+napis5 = 'prawdopodobienstwo'
+ile_razy_o = napis5.count('o')
+print(ile_razy_o)
