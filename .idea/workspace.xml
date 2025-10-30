@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e4646b-fc24-4780-84c8-a5249075ad2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zmienne typu string.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmienne typu string.py" beforeDir="false" afterPath="$PROJECT_DIR$/zmienne typu string.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,7 @@
     &quot;Python.operatory_logiczne_i_artymetyczne.executor&quot;: &quot;Run&quot;,
     &quot;Python.wejscie_i_wyjscie.executor&quot;: &quot;Run&quot;,
     &quot;Python.wyjscie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zmienne typu string.executor&quot;: &quot;Run&quot;,
     &quot;Python.zmienne.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
