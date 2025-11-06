@@ -92,5 +92,46 @@ if napis9.isalpha() == True:
     print('słowo składa się z liter')
 else:
     print('słowo nie składa się z liter')
+#9). Kody ASCII
+#9.1 ze znaku na kod ASCII
+print(ord('A'))
 
-    #10).
+#9.2. z kodu ASCII na znak
+print(chr(66))
+
+#Zagadka
+print(chr(ord('Z')))
+
+#10. Funkcja translate
+slownik = str.maketrans('ąęćóżśżłń', 'aecozszln')
+napis12 = ('ińfórmątyką')
+napis12_poprawny = napis12.translate(slownik)
+print(napis12_poprawny)
+
+
+#11.funkcje dużych i małych literek
+napis13 = 'KOnGo'
+napis13_tylko_duze = napis13.upper()
+print(napis13_tylko_duze)
+
+napis13_tylko_male = napis13.lower()
+print(napis13_tylko_male)
+
+#12Podstawianie ciągu znaków
+napis14 = 'Chleb kosztuje 15zł, a bułka 5zł'
+napis14_w_euro = napis14.replace('zł', '$')
+print(napis14_w_euro)
+print(napis14)
+
+#13. sortowanie o odwracaniu napisu
+#13.1 odwracanie napis
+napis15 = 'kemot'
+napis15_odwrotnie = napis15[::-1]
+print(napis15_odwrotnie)
+
+#13.2 Sortowanie napisu
+napis16 = 'dbca'
+napis16_posortowany_lista = sorted(napis16)
+napis16_posortowany = ''.join(napis16_posortowany_lista)
+print(napis16_posortowany)
+
