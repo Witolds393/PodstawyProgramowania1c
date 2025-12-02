@@ -33,7 +33,28 @@ for i in range(10):
 
 #17 zadanie
 n = int(input('Podaj ile bedzie liczb'))
-
+suma = 0
 for x in range(n):
     liczba = int(input('Podaj ile bedzie liczb'))
     print(liczba)
+from math import inf
+max_liczba = -inf
+min_liczba = inf
+ile_mniej_3 = 0
+
+
+for x in range(n):
+    liczba = int(input('podaj liczbę'))
+    suma = suma + liczba
+    if liczba > max_liczba:
+        max_liczba = liczba
+    if liczba < min_liczba:
+        min_liczba = liczba
+    if liczba < 3:
+        ile_mniej_3 = ile_mniej_3 + 1
+
+ lista4 = []
+for x in range(n):
+    liczba = int(input('Podaj liczbę'))
+    lista4.append(liczba)
+print(sum(lista4))

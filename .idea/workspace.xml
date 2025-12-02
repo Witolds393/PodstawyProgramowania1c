@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e4646b-fc24-4780-84c8-a5249075ad2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pętle_for_zadania.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/powtórzenie kartkowki petle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +41,8 @@
     "Python.listy_i_pętle.executor": "Run",
     "Python.nowyplik.executor": "Run",
     "Python.operatory_logiczne_i_artymetyczne.executor": "Run",
+    "Python.petlepowtorzenie.executor": "Run",
+    "Python.powtórzenie kartkowki petle.executor": "Run",
     "Python.pętle_for_zadania.executor": "Run",
     "Python.wejscie_i_wyjscie.executor": "Run",
     "Python.wyjscie.executor": "Run",
