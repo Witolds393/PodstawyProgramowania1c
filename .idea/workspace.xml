@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e4646b-fc24-4780-84c8-a5249075ad2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/omowienie kartkowki petla cz.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kontynuacja petli while.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pętla while.py" beforeDir="false" afterPath="$PROJECT_DIR$/pętla while.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,31 +32,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Instrukcje_warunkowe.executor": "Run",
-    "Python.Testowy.executor": "Run",
-    "Python.instrukcje_warunkowe_zadania.executor": "Run",
-    "Python.listy_i_pętle.executor": "Run",
-    "Python.nowyplik.executor": "Run",
-    "Python.omowienie kartkowki petla cz.2.executor": "Run",
-    "Python.operatory_logiczne_i_artymetyczne.executor": "Run",
-    "Python.petlepowtorzenie.executor": "Run",
-    "Python.powtórzenie kartkowki petle.executor": "Run",
-    "Python.pętla while.executor": "Run",
-    "Python.pętle zagnieżdżone.executor": "Run",
-    "Python.pętle_for_zadania.executor": "Run",
-    "Python.wejscie_i_wyjscie.executor": "Run",
-    "Python.wyjscie.executor": "Run",
-    "Python.zmienne typu string.executor": "Run",
-    "Python.zmienne.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Instrukcje_warunkowe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Testowy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.instrukcje_warunkowe_zadania.executor&quot;: &quot;Run&quot;,
+    &quot;Python.listy_i_pętle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nowyplik.executor&quot;: &quot;Run&quot;,
+    &quot;Python.omowienie kartkowki petla cz.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.operatory_logiczne_i_artymetyczne.executor&quot;: &quot;Run&quot;,
+    &quot;Python.petlepowtorzenie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.powtórzenie kartkowki petle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pętla while.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pętle zagnieżdżone.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pętle_for_zadania.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wejscie_i_wyjscie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wyjscie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zmienne typu string.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zmienne.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

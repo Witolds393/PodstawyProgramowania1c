@@ -20,7 +20,7 @@ while x != 'q':
         licznik = licznik + 1# zliczanie !
     x = input('Podaj liczbe lub q aby zakonczyc ')
 
-print(licznik)'''
+print(licznik)
 
 
 # zadanie 2
@@ -36,6 +36,27 @@ while haslo != poprawne_haslo:
         print('wyczerpano limit prob')
         break
     elif haslo == poprawne_haslo:
-        print('Witaj')
+        print('Witaj')'''
+from random import randint
+from time import sleep
+# zadanie 6
 
+wynik1 = 0
+wynik2 = 0
+akcja = 0
 
+while not ((wynik1 >= 21 or wynik2 >= 21) and abs (wynik1 - wynik2) >= 2):
+    akcja += 1
+    print(f'akcja {akcja}')
+   # druzna = int(input('Podaj numer drużyny przeciwnej która wygrała akcje'))
+    druzna = randint(1, 2)
+    if druzna == 1:
+        wynik1 += 1
+    elif druzna == 2:
+        wynik2 += 1
+    print(f'wynik {wynik1} : {wynik2}')
+    sleep(1)
+    if wynik1 > wynik2:
+        print('wygrała drużyna 1')
+    else:
+        print('wygrała drużyna 2')
