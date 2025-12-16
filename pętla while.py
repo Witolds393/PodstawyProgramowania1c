@@ -36,7 +36,7 @@ while haslo != poprawne_haslo:
         print('wyczerpano limit prob')
         break
     elif haslo == poprawne_haslo:
-        print('Witaj')'''
+        print('Witaj')
 from random import randint
 from time import sleep
 # zadanie 6
@@ -65,3 +65,28 @@ while not ((wynik1 >= 21 or wynik2 >= 21 or wynik3 >= 21) and abs (wynik1 - wyni
         print('wygrała drużyna 2')
     else:
         print('wygrała drużyna 3')
+
+#  zadanie 7
+
+liczba = int(input('podaj liczbę'))
+
+while liczba > 0:
+    cyfra = liczba % 10
+    liczba = liczba // 10
+    print(cyfra, end = '')'''
+
+# zadanie 8 PODZIĄŁ NA CZYNNIKI PIERWSZE
+
+liczba = int(input('podaj liczbe'))
+d = 2
+ile_czyn = 0
+ile_r_czyn = 0
+while liczba > 1:
+    if liczba % d == 0:
+      ile_r_czyn += 1
+    while liczba % d == 0:
+        liczba = liczba // d
+        ile_czyn += 1
+    d += 1
+print(ile_czyn)
+print(ile_r_czyn)
