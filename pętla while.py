@@ -43,20 +43,25 @@ from time import sleep
 
 wynik1 = 0
 wynik2 = 0
+wynik3 = 0
 akcja = 0
 
-while not ((wynik1 >= 21 or wynik2 >= 21) and abs (wynik1 - wynik2) >= 2):
+while not ((wynik1 >= 21 or wynik2 >= 21 or wynik3 >= 21) and abs (wynik1 - wynik2 or wynik3 - wynik2 or wynik3 - wynik1 or wynik2 - wynik1 or wynik1 - wynik3) >= 2):
     akcja += 1
     print(f'akcja {akcja}')
    # druzna = int(input('Podaj numer drużyny przeciwnej która wygrała akcje'))
-    druzna = randint(1, 2)
+    druzna = randint(1, 3)
     if druzna == 1:
         wynik1 += 1
     elif druzna == 2:
         wynik2 += 1
-    print(f'wynik {wynik1} : {wynik2}')
-    sleep(1)
-    if wynik1 > wynik2:
-        print('wygrała drużyna 1')
     else:
+        wynik3 += 1
+    print(f'wynik {wynik1} : {wynik2} : {wynik3}')
+    sleep(0.1)
+    if wynik1 > wynik2 and wynik1 > wynik3:
+        print('wygrała drużyna 1')
+    elif wynik2 > wynik1 and wynik2 > wynik3:
         print('wygrała drużyna 2')
+    else:
+        print('wygrała drużyna 3')
