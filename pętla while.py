@@ -73,7 +73,7 @@ liczba = int(input('podaj liczbę'))
 while liczba > 0:
     cyfra = liczba % 10
     liczba = liczba // 10
-    print(cyfra, end = '')'''
+    print(cyfra, end = '')
 
 # zadanie 8 PODZIĄŁ NA CZYNNIKI PIERWSZE
 
@@ -89,4 +89,42 @@ while liczba > 1:
         ile_czyn += 1
     d += 1
 print(ile_czyn)
-print(ile_r_czyn)
+print(ile_r_czyn)'''
+
+
+# zadanie 5
+from time import sleep
+from random import randint
+x, y = 0, 0
+ruchy = ['p'] * 10 + ['d'] * 5 + ['l'] * 5 + ['g'] * 10 + ['q']
+print(ruchy)
+while True:
+    #ruch = input('Podaj ruch')
+    ruch = ruchy[randint(0, len(ruchy) - 1)]
+    if ruch == 'q':
+        print('koniec')
+        break
+    elif ruch == 'g':
+        if y < 9:
+            y += 1
+        else:
+            print('Ruch niemożliwy')
+    elif ruch == 'p':
+        if x < 9:
+            x += 1
+        else:
+            print('Ruch niemożliwy')
+    elif ruch == 'l':
+        if x > 0:
+            x -= 1
+        else:
+            print('Ruch niemożliwy')
+    elif ruch == 'd':
+        if y > 0:
+            y -= 1
+        else:
+            print('Ruch niemożliwy')
+    else:
+        print('Ruch nieznany')
+    print(f'({x}, {y})')
+    sleep(0.5)
