@@ -1,4 +1,4 @@
-#1) listy a napisy
+''''#1) listy a napisy
 
 napis = 'informatyka'
 lista = []
@@ -33,4 +33,25 @@ print(lista7)
 #"mnożenie" listy przez liczbę
 lista9 = [0] * 1000
 lista10 = lista9 * 1000
-print(lista10)
+print(lista10)'''
+
+#5)Sortowanie i odwracanie listy
+lista11 = [4, -1, 0, 5, 2, 9, 3]
+lista11.sort()#.reverse
+print(lista11)
+
+#6)wyrażenia listowe
+lista = list(range(1, 11))
+listakwadraty = [x ** 2 for x in lista]
+print(listakwadraty)
+
+#Usuwanie z listy
+
+lista12 =  [4, 7, 8, 4, 2, 1, 3]
+while 4 in lista12:
+    lista12.remove(4)
+print(lista12)
+
+lista13 = [5, 3, 4, 2, 1]
+del lista13[2]
+print(lista13)
