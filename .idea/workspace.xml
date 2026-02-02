@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e4646b-fc24-4780-84c8-a5249075ad2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/listy zadania.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pliki zaadania2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listy zadania.py" beforeDir="false" afterPath="$PROJECT_DIR$/listy zadania.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,7 @@
     &quot;Python.Instrukcje_warunkowe.executor&quot;: &quot;Run&quot;,
     &quot;Python.Testowy.executor&quot;: &quot;Run&quot;,
     &quot;Python.instrukcje_warunkowe_zadania.executor&quot;: &quot;Run&quot;,
+    &quot;Python.listy zadania.executor&quot;: &quot;Run&quot;,
     &quot;Python.listy.executor&quot;: &quot;Run&quot;,
     &quot;Python.listy_i_pętle.executor&quot;: &quot;Run&quot;,
     &quot;Python.nowyplik.executor&quot;: &quot;Run&quot;,
