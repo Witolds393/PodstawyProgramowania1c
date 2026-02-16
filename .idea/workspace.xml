@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e4646b-fc24-4780-84c8-a5249075ad2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/słowniki.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zbiory_słowniki_zadania.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zbiory.py" beforeDir="false" afterPath="$PROJECT_DIR$/zbiory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbiory_słowniki_zadania.py" beforeDir="false" afterPath="$PROJECT_DIR$/zbiory_słowniki_zadania.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,7 @@
     "Python.wejscie_i_wyjscie.executor": "Run",
     "Python.wyjscie.executor": "Run",
     "Python.zbiory.executor": "Run",
+    "Python.zbiory_słowniki_zadania.executor": "Run",
     "Python.zmienne typu string.executor": "Run",
     "Python.zmienne.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
