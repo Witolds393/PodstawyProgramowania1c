@@ -81,6 +81,7 @@ print(sorted(s1) == sorted(s2))'''
 
 #2.2
 def jaki_trójkąt(a, b, c):
+    if a + b + c > 2 + max([a, b, c]) ** 2:
     if a ** 2 + b ** 2 + c ** 2 == 2 * max([a, b, c]) ** 2:
         print('prostokątny')
     if a ** 2 + b ** 2 + c ** 2 > 2 * max([a, b, c]) ** 2:
