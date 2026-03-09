@@ -1,4 +1,4 @@
-slowo = 'aksmsncajcnecjebv'
+'''slowo = 'aksmsncajcnecjebv'
 samogloski = ['a', 'e', 'i', 'o', 'u', 'y']
 slowo2 = ''.join([x for x in list(slowo) if x not in samogloski])
 print(slowo2)
@@ -22,4 +22,25 @@ def liczby_niezalezne(lista):
         if len(dzielniki) == 1:
             wynik.append(i)
     return wynik
-print(liczby_niezalezne([12, 7, 3, 6, 21, 74]))
+print(liczby_niezalezne([12, 7, 3, 6, 21, 74]))'''
+
+#2.4, 2.5, 2.6, 2.7, 2.8
+def ile_cyfr(liczba):
+    licznik = 0
+    while liczba > 0:
+        liczba += liczba // 10
+        licznik += 1
+    return licznik
+
+
+print(ile_cyfr(127))
+
+def unikatowe_elementy(l1, l2):
+    zbior = set()
+    l = l1 + l2
+    for x in l:
+        if l.count(x) == 1:
+            zbior.add(x)
+    return zbior
+
+print(unikatowe_elementy([1, 2, 6, 4, 5], [8, 4, 5, 2]))
