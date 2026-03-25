@@ -36,3 +36,6 @@ print(plik5)
 
 
 plik5prin = [list(map(int, x.split()))for x in open('plik5')]
+
+
+
