@@ -26,4 +26,6 @@ for x in dane:
     kraj = x[0]
     miasto = x[1]
     lokale_handlowe = [(d, s) for  d, s in zip(x[2::2], x[3::2]) ]
-    galerie.append(Galeria)
+    galerie.append(Galeria(kraj, miasto, lokale_handlowe)
+for g in galerie:
+    print(g.kraj, g.miasto, g.lokale_handlowe)
