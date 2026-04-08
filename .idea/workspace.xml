@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e4646b-fc24-4780-84c8-a5249075ad2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sprawdzian grupa A/liczby.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprawdzian grupa A/prostokaty.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprawdzian grupa A/prostokaty_przyklad.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprawdzian grupa A/przyklad.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprawdzian grupa A/slowa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprawdzian grupa A/slowa_przyklad.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprawdzian grupa A/zad 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spr.B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprawdzian grB/bin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprawdzian grB/bin_przyklad.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprawdzian grB/liczby.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprawdzian grB/zadania.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +56,13 @@
     "Python.pętla while.executor": "Run",
     "Python.pętle zagnieżdżone.executor": "Run",
     "Python.pętle_for_zadania.executor": "Run",
+    "Python.spr.B.executor": "Run",
     "Python.słowniki.executor": "Run",
     "Python.wczytywanie_danych_z_pliku.executor": "Run",
     "Python.wejscie_i_wyjscie.executor": "Run",
     "Python.wyjscie.executor": "Run",
     "Python.zad 1.executor": "Run",
+    "Python.zadania.executor": "Run",
     "Python.zbiory.executor": "Run",
     "Python.zbiory_słowniki_zadania.executor": "Run",
     "Python.zmienne typu string.executor": "Run",
@@ -74,6 +74,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\0C gr 2\PycharmProjects\PythonProject\sprawdzian grB" />
       <recent name="C:\Users\0C gr 2\PycharmProjects\PythonProject\sprawdzian grupa A" />
     </key>
   </component>
