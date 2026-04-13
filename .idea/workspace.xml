@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e4646b-fc24-4780-84c8-a5249075ad2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fizyka.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fizyka/c.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fizyka/sily.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zagnieżdżone instrukcje warunkowe.py" beforeDir="false" afterPath="$PROJECT_DIR$/zagnieżdżone instrukcje warunkowe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +71,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\0C gr 2\PycharmProjects\PythonProject\fizyka" />
       <recent name="C:\Users\0C gr 2\PycharmProjects\PythonProject\sprawdzian grB" />
       <recent name="C:\Users\0C gr 2\PycharmProjects\PythonProject\sprawdzian grupa A" />
     </key>
