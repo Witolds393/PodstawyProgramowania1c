@@ -1,0 +1,88 @@
+
+class Samochod:
+
+    _pojazdow = 0
+
+    def __init__(self, numer, miejsce, marka, bak,
+                 spalanie, przebieg, paliwo,
+                 wlasciciel, ubezpieczenie, adres):
+
+        self.numer = numer
+        self.miejsce = miejsce
+        self.marka = marka
+        self.bak = bak
+        self.spalanie = spalanie
+        self.przebieg = przebieg
+        self.paliwo = paliwo
+        self.wlasciciel = wlasciciel
+        self.ubezpieczenie = ubezpieczenie
+        self.adres = adres
+
+        Samochod._pojazdow += 1
+
+    def NadajWlasciciela(self, NWlasciciel, NAdres):
+        self.wlasciciel = NWlasciciel
+        self.adres = NAdres
+
+    def Przejazd(self, km):
+        zuzycie = self.spalanie * km / 100
+
+        if self.paliwo >= zuzycie:
+            self.paliwo -= zuzycie
+            self.przebieg += km
+        else:
+            mozliwe_km = self.paliwo * 100 / self.spalanie
+            self.przebieg += mozliwe_km
+            self.paliwo = 0
+
+    def UzupelnijPaliwo(self, ilosc):
+        self.paliwo += ilosc
+
+        if self.paliwo > self.bak:
+            self.paliwo = self.bak
+
+    def PrzypiszUbezpieczenie(self, numer):
+        self.ubezpieczenie = numer
+
+    def InformacjePodstawowe(self):
+        print("Przebieg:", self.przebieg)
+        print("Paliwo:", self.paliwo)
+        print("Właściciel:", self.wlasciciel)
+        print("Ubezpieczenie:", self.ubezpieczenie)
+        print("Adres:", self.adres)
+
+
+# TWORZENIE OBIEKTU
+
+auto = Samochod(
+    123456789, 6, "Audi", 9.6,
+    4.8, 20000.0, 7.5,
+    "Mariusz Bak", "u04", "Kanarkowa 77"
+)
+
+print("Liczba pojazdow:", Samochod._pojazdow)
+
+
+# SYMULACJA
+
+# 1. Nadanie wlasciciela
+auto.NadajWlasciciela("Bronislaw Kubek", "Papugowa 77")
+auto.InformacjePodstawowe()
+
+# 2. Przypisanie ubezpieczenia
+auto.PrzypiszUbezpieczenie("u05")
+auto.InformacjePodstawowe()
+
+# 3. Proba przejechania 10000 km
+auto.Przejazd(10000)
+auto.InformacjePodstawowe()
+
+# 4. Proba uzupelnienia paliwa o 1000 l
+auto.UzupelnijPaliwo(1000)
+auto.InformacjePodstawowe()
+
+# 5. Przejechani 100 km
+auto.Przejazd(100)
+auto.InformacjePodstawowe()
+
+
